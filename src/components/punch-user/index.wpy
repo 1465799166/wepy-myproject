@@ -1,0 +1,21 @@
+<template>
+    <view class="punch-user">
+        <!-- <view>
+            <img :src="user.head" alt="">
+            <view>
+                <view>{{user.name}}</view>
+                <view>{{user.group}}</view>
+            </view>
+        </view> -->
+        <view>{{stateNum}}</view>
+        <view>{{asyncNum}}</view>
+        <view>{{list.name}}</view>
+        <button @tap="incNum">+</button>
+        <button @tap="decNum">-</button>
+        <button @tap="sdIncre">手动+</button>
+        <button @tap="asyncInc">async +</button>
+    </view>
+</template>
+
+<script src='./index.js'></script>
+<style scoped src='./index.less'></style>

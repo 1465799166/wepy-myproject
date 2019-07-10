@@ -1,0 +1,9 @@
+<template>
+  <view class="container">
+    <punch-user></punch-user>
+  </view>
+</template>
+
+<script src="./index.js"></script>
+<style scoped lang="less" src="./index.less"></style>
+
